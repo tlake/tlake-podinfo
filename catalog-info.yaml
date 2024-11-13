@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "tlake-podinfo"
+  annotations:
+    "humanitec.com/orgId": "kubecon-na-2024"
+    "humanitec.com/appId": "tlake-podinfo"
+spec:
+  type: service
+  owner: user:guest
+  lifecycle: experimental
